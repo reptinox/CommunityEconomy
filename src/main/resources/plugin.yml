@@ -1,0 +1,17 @@
+name: CommunityEconomy
+version: 1.0.0
+main: com.conner.communityeconomy.CommunityEconomy
+api-version: '26.2'
+
+commands:
+  talents:
+    description: Gives Talents to a player
+    usage: /talents <amount> <player>
+
+  projects:
+    description: Opens the community projects menu
+    usage: /projects
+
+  project:
+    description: Community project commands
+    usage: /project <add|remove|location>
