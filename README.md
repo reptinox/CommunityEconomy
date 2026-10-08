@@ -37,13 +37,13 @@ The plugin is designed for small, cooperative survival servers where community p
 
 ## Commands
 
-| Command | Description | Access |
-|---|---|---|
+| Command | Description | Access      |
+|---|---|-------------|
 | `/projects` | Open the community projects GUI | All players |
-| `/project add <id> <reward> <material> <name>` | Create a community project | Operator |
-| `/project remove <id>` | Remove an existing project | Operator |
-| `/project location <id>` | Record a completed project's location and award its Talents | Operator |
-| `/talents <amount> <player>` | Give Talents to a player | Operator |
+| `/project add <id> <reward> <material> <name>` | Create a community project | Operator    |
+| `/project remove <id>` | Remove an existing project | Operator    |
+| `/project location <id>` | Record a completed project's location and award its Talents | All Players |
+| `/talents <amount> <player>` | Give Talents to a player | Operator    |
 
 Command tab completion is supported for relevant subcommands, project IDs, materials, and player names.
 
@@ -52,7 +52,7 @@ Command tab completion is supported for relevant subcommands, project IDs, mater
 1. **Create a project.** An operator adds a project with a name, display item, and Talent reward.
 2. **Work together.** Players view available projects using `/projects` and collaborate to complete them.
 3. **Mark completion.** A completed project is confirmed through the inventory GUI.
-4. **Record its location.** An operator uses `/project location <id>` while standing at the finished project.
+4. **Record its location.** A player uses `/project location <id>` while standing at the finished project.
 5. **Receive Talents.** The project reward is issued once, and the completed project remains available for reference.
 
 ### Example
