@@ -6,6 +6,8 @@ CommunityEconomy introduces **Talents**, a custom in-game currency earned by com
 
 The plugin is designed for small, cooperative survival servers where community participation drives the economy.
 
+![Community Projects Main Menu](images/main-menu.png)
+
 ## Features
 
 ### Custom Currency — Talents
@@ -14,6 +16,8 @@ The plugin is designed for small, cooperative survival servers where community p
 - Supports player-to-player trading through physical items.
 - Allows server operators to distribute Talents using commands.
 - Automatically drops excess Talents at a player's feet when their inventory is full.
+
+![Custom Currency - Talent](images/talent.png)
 
 ### Community Projects
 - Server operators can create projects with custom names, rewards, and display items.
@@ -29,6 +33,9 @@ The plugin is designed for small, cooperative survival servers where community p
 - Project details, reward information, and completion confirmation.
 - Pagination for servers with numerous projects.
 - Recorded project locations, including world and XYZ coordinates.
+
+![Community Projects Tasks Menu](images/tasks-menu.png)
+![Community Projects Completed Menu](images/completed-menu.png)
 
 ### Persistent Data
 - Project information is stored in `projects.yml`.
